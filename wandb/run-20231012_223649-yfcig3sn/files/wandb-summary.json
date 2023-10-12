@@ -1,0 +1,1 @@
+{"activation": "tanh", "optimizer": "Batch", "MSE": NaN, "RMSE": NaN, "R squared": NaN, "_timestamp": 1697130411.6874063, "_runtime": 2.091933250427246, "_step": 0, "_wandb": {"runtime": 1}}

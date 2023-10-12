@@ -1,0 +1,1 @@
+{"activation": "sigmoid", "optimizer": "MiniBatch", "MSE": 16.56619895961767, "RMSE": 4.0701595742203605, "R squared": 0.7481037618623401, "_timestamp": 1697130388.4928524, "_runtime": 4.984848499298096, "_step": 0, "_wandb": {"runtime": 3}}

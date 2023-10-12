@@ -1,0 +1,6 @@
+/tmp/ipykernel_220175/1766985402.py:59: RuntimeWarning: invalid value encountered in multiply
+  deltas[i] = np.dot(deltas[i + 1], self.weights[i + 1].T) * self.activationPrime(self.z[i])
+MAE:  nan
+MSE:  nan
+RMSE:  nan
+R squared:  nan

@@ -1,0 +1,1 @@
+{"activation": "sigmoid", "optimizer": "SGD", "accuracy": 0.49344978165938863, "_timestamp": 1697097755.9509861, "_runtime": 1.2158732414245605, "_step": 0, "_wandb": {"runtime": 0}}

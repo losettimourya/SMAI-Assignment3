@@ -1,0 +1,36 @@
+2023-10-12 22:35:58,403 INFO    Thread-8 (_run_job):124433 [wandb_setup.py:_flush():76] Current SDK version is 0.15.11
+2023-10-12 22:35:58,403 INFO    Thread-8 (_run_job):124433 [wandb_setup.py:_flush():76] Configure stats pid to 124433
+2023-10-12 22:35:58,403 INFO    Thread-8 (_run_job):124433 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-12 22:35:58,404 INFO    Thread-8 (_run_job):124433 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-12 22:35:58,404 INFO    Thread-8 (_run_job):124433 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression for all combinations', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'sweep_id': 'ftqlsc23', 'run_id': '0cnyt81p', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-ftqlsc23/config-0cnyt81p.yaml'}
+2023-10-12 22:35:58,404 INFO    Thread-8 (_run_job):124433 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-12 22:35:58,404 INFO    Thread-8 (_run_job):124433 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-12 22:35:58,404 INFO    Thread-8 (_run_job):124433 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231012_223558-0cnyt81p/logs/debug.log
+2023-10-12 22:35:58,404 INFO    Thread-8 (_run_job):124433 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231012_223558-0cnyt81p/logs/debug-internal.log
+2023-10-12 22:35:58,404 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():568] calling init triggers
+2023-10-12 22:35:58,404 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'sigmoid', 'optimizer': 'SGD'}
+config: {}
+2023-10-12 22:35:58,405 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():618] starting backend
+2023-10-12 22:35:58,405 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():622] setting up manager
+2023-10-12 22:35:58,413 INFO    Thread-8 (_run_job):124433 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-12 22:35:58,414 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():628] backend started and connected
+2023-10-12 22:35:58,427 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'sigmoid', 'optimizer': 'SGD'}
+2023-10-12 22:35:58,428 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-12 22:35:58,429 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():720] updated telemetry
+2023-10-12 22:35:58,432 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-12 22:35:59,156 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-12 22:35:59,280 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.15.12 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-10-12 22:35:59,280 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():804] starting run threads in backend
+2023-10-12 22:35:59,328 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-12 22:35:59,328 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-12 22:35:59,328 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-12 22:35:59,328 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-12 22:35:59,329 INFO    Thread-8 (_run_job):124433 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-12 22:35:59,906 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression for all combinations/0cnyt81p
+2023-10-12 22:35:59,907 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-12 22:35:59,907 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_restore():2151] restore
+2023-10-12 22:35:59,907 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_restore():2157] restore done
+2023-10-12 22:36:05,140 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_footer_history_summary_info():3554] rendering history
+2023-10-12 22:36:05,141 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_footer_history_summary_info():3586] rendering summary
+2023-10-12 22:36:05,150 INFO    Thread-8 (_run_job):124433 [wandb_run.py:_footer_sync_info():3513] logging synced files

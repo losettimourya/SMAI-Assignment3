@@ -1,0 +1,12 @@
+/tmp/ipykernel_220175/1766985402.py:41: RuntimeWarning: overflow encountered in square
+  return np.exp(-z) / ((1 + np.exp(-z))**2)
+/tmp/ipykernel_220175/1766985402.py:38: RuntimeWarning: overflow encountered in exp
+  return 1 / (1 + np.exp(-z))
+/tmp/ipykernel_220175/1766985402.py:41: RuntimeWarning: overflow encountered in exp
+  return np.exp(-z) / ((1 + np.exp(-z))**2)
+/tmp/ipykernel_220175/1766985402.py:41: RuntimeWarning: invalid value encountered in divide
+  return np.exp(-z) / ((1 + np.exp(-z))**2)
+MAE:  nan
+MSE:  nan
+RMSE:  nan
+R squared:  nan
