@@ -1,0 +1,73 @@
+{
+    "os": "Linux-6.2.0-34-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-10-13T19:27:36.789920",
+    "startedAt": "2023-10-13T19:27:35.626343",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "ubuntulsa-HP-Pavilion-Laptop-14-dv0xxx",
+    "username": "ubuntulsa",
+    "executable": "/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1443.3030000000003,
+        "min": 400.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 947.595,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1468.646,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1492.218,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1370.655,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1117.037,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1480.711,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1261.679,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1401.68,
+            "min": 400.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 91.10977554321289,
+            "used": 14.48794174194336
+        }
+    },
+    "memory": {
+        "total": 15.38132095336914
+    }
+}

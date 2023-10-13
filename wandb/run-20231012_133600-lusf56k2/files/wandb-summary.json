@@ -1,1 +1,0 @@
-{"activation": "relu", "optimizer": "MiniBatch", "accuracy": 0.5764192139737991, "_timestamp": 1697097966.6771834, "_runtime": 6.125926494598389, "_step": 0, "_wandb": {"runtime": 5}}

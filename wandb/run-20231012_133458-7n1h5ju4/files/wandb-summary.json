@@ -1,1 +1,0 @@
-{"activation": "tanh", "optimizer": "SGD", "accuracy": 0.5502183406113537, "_timestamp": 1697097899.828325, "_runtime": 1.4790029525756836, "_step": 0, "_wandb": {"runtime": 0}}
