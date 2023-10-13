@@ -1,0 +1,13 @@
+wandb_version: 1
+
+activation:
+  value: sigmoid
+epochs:
+  value: 1000
+hiddenlayersize:
+  value:
+  - 13
+learning_rate:
+  value: 0.001
+optimizer:
+  value: Batch

@@ -1,0 +1,144 @@
+2023-10-13 10:32:28,610 INFO    Thread-41 (_run_job):104951 [wandb_setup.py:_flush():76] Current SDK version is 0.15.11
+2023-10-13 10:32:28,610 INFO    Thread-41 (_run_job):104951 [wandb_setup.py:_flush():76] Configure stats pid to 104951
+2023-10-13 10:32:28,610 INFO    Thread-41 (_run_job):104951 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-13 10:32:28,611 INFO    Thread-41 (_run_job):104951 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-13 10:32:28,611 INFO    Thread-41 (_run_job):104951 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'Hyperparameter Tuning in MLP Regression.', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': 'jvdequdu', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-vxzx5n5i/config-jvdequdu.yaml', 'sweep_id': 'vxzx5n5i'}
+2023-10-13 10:32:28,611 INFO    Thread-41 (_run_job):104951 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-13 10:32:28,611 INFO    Thread-41 (_run_job):104951 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-13 10:32:28,611 INFO    Thread-41 (_run_job):104951 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_103228-jvdequdu/logs/debug.log
+2023-10-13 10:32:28,612 INFO    Thread-41 (_run_job):104951 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_103228-jvdequdu/logs/debug-internal.log
+2023-10-13 10:32:28,612 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():568] calling init triggers
+2023-10-13 10:32:28,612 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'sigmoid', 'epochs': 10, 'hiddenlayersize': [13], 'learning_rate': 0.0001, 'optimizer': 'Batch'}
+config: {}
+2023-10-13 10:32:28,613 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():618] starting backend
+2023-10-13 10:32:28,613 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():622] setting up manager
+2023-10-13 10:32:28,623 INFO    Thread-41 (_run_job):104951 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-13 10:32:28,624 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():628] backend started and connected
+2023-10-13 10:32:28,635 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'sigmoid', 'epochs': 10, 'hiddenlayersize': [13], 'learning_rate': 0.0001, 'optimizer': 'Batch'}
+2023-10-13 10:32:28,635 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-13 10:32:28,636 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():720] updated telemetry
+2023-10-13 10:32:28,639 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-13 10:32:29,610 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-13 10:32:29,886 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_on_init():2229] got version response upgrade_message: "wandb version 0.15.12 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-10-13 10:32:29,886 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():804] starting run threads in backend
+2023-10-13 10:32:29,961 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-13 10:32:29,962 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-13 10:32:29,962 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-13 10:32:29,962 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-13 10:32:29,962 INFO    Thread-41 (_run_job):104951 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-13 10:32:29,965 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_finish():1934] finishing run mourya/Hyperparameter Tuning in MLP Regression./jvdequdu
+2023-10-13 10:32:29,965 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-13 10:32:29,965 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_restore():2151] restore
+2023-10-13 10:32:29,965 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_restore():2157] restore done
+2023-10-13 10:32:31,968 ERROR   Thread-41 (_run_job):104951 [ipython.py:update():120] Socket operation on non-socket
+Traceback (most recent call last):
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 113, in update
+    self._progress.value = value
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 732, in __set__
+    self.set(obj, value)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 721, in set
+    obj._notify_trait(self.name, old_value, new_value)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 1505, in _notify_trait
+    self.notify_change(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 694, in notify_change
+    self.send_state(key=name)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 580, in send_state
+    self._send(msg, buffers=buffers)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 819, in _send
+    self.comm.send(data=msg, buffers=buffers)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/comm/base_comm.py", line 113, in send
+    self.publish_msg(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/comm/comm.py", line 36, in publish_msg
+    self.kernel.session.send(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/jupyter_client/session.py", line 861, in send
+    stream.send_multipart(to_send, copy=copy)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 330, in send_multipart
+    return self.io_thread.send_multipart(*args, **kwargs)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 260, in send_multipart
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2023-10-13 10:32:31,971 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_restore():2151] restore
+2023-10-13 10:32:31,972 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_restore():2157] restore done
+2023-10-13 10:32:32,974 ERROR   Thread-41 (_run_job):104951 [wandb_run.py:_atexit_cleanup():2189] Problem finishing run
+Traceback (most recent call last):
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 113, in update
+    self._progress.value = value
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 732, in __set__
+    self.set(obj, value)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 721, in set
+    obj._notify_trait(self.name, old_value, new_value)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/traitlets/traitlets.py", line 1505, in _notify_trait
+    self.notify_change(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 694, in notify_change
+    self.send_state(key=name)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 580, in send_state
+    self._send(msg, buffers=buffers)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipywidgets/widgets/widget.py", line 819, in _send
+    self.comm.send(data=msg, buffers=buffers)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/comm/base_comm.py", line 113, in send
+    self.publish_msg(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/comm/comm.py", line 36, in publish_msg
+    self.kernel.session.send(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/jupyter_client/session.py", line 861, in send
+    stream.send_multipart(to_send, copy=copy)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 330, in send_multipart
+    return self.io_thread.send_multipart(*args, **kwargs)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 260, in send_multipart
+    self.schedule(lambda: self._really_send(*args, **kwargs))
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2177, in _atexit_cleanup
+    self._on_finish()
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2416, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 303, in wait
+    on_progress(progress_handle)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2396, in _on_progress_exit
+    self._footer_file_pusher_status_info(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3366, in _footer_file_pusher_status_info
+    Run._footer_single_run_file_pusher_status_info(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3416, in _footer_single_run_file_pusher_status_info
+    printer.progress_update(line, percent_done)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 287, in progress_update
+    self._progress.update(percent_done, text)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 121, in update
+    wandb.termwarn(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/errors/term.py", line 50, in termwarn
+    _log(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/redirect.py", line 640, in write
+    self._old_write(data)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 648, in write
+    self._schedule_flush()
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 545, in _schedule_flush
+    self.pub_thread.schedule(_schedule_in_thread)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2023-10-13 10:32:32,982 INFO    Thread-41 (_run_job):104951 [wandb_run.py:_finish():1934] finishing run mourya/Hyperparameter Tuning in MLP Regression./jvdequdu

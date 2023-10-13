@@ -1,0 +1,172 @@
+2023-10-13 09:55:20,347 INFO    StreamThr :49402 [internal.py:wandb_internal():86] W&B internal server running at pid: 49402, started at: 2023-10-13 09:55:20.346868
+2023-10-13 09:55:20,348 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: status
+2023-10-13 09:55:20,360 INFO    WriterThread:49402 [datastore.py:open_for_write():85] open: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/run-2lpf2rgu.wandb
+2023-10-13 09:55:20,360 DEBUG   SenderThread:49402 [sender.py:send():380] send: header
+2023-10-13 09:55:20,363 DEBUG   SenderThread:49402 [sender.py:send():380] send: run
+2023-10-13 09:55:21,555 INFO    SenderThread:49402 [dir_watcher.py:__init__():211] watching files in: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files
+2023-10-13 09:55:21,555 INFO    SenderThread:49402 [sender.py:_start_run_threads():1122] run started: 2lpf2rgu with start time 1697171120.345806
+2023-10-13 09:55:21,571 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: check_version
+2023-10-13 09:55:21,571 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: check_version
+2023-10-13 09:55:21,945 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: run_start
+2023-10-13 09:55:21,947 DEBUG   HandlerThread:49402 [system_info.py:__init__():32] System info init
+2023-10-13 09:55:21,947 DEBUG   HandlerThread:49402 [system_info.py:__init__():47] System info init done
+2023-10-13 09:55:21,947 INFO    HandlerThread:49402 [system_monitor.py:start():181] Starting system monitor
+2023-10-13 09:55:21,948 INFO    SystemMonitor:49402 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-13 09:55:21,949 INFO    HandlerThread:49402 [system_monitor.py:probe():201] Collecting system info
+2023-10-13 09:55:21,949 INFO    SystemMonitor:49402 [interfaces.py:start():190] Started cpu monitoring
+2023-10-13 09:55:21,952 INFO    SystemMonitor:49402 [interfaces.py:start():190] Started disk monitoring
+2023-10-13 09:55:21,953 INFO    SystemMonitor:49402 [interfaces.py:start():190] Started memory monitoring
+2023-10-13 09:55:21,954 INFO    SystemMonitor:49402 [interfaces.py:start():190] Started network monitoring
+2023-10-13 09:55:21,979 DEBUG   HandlerThread:49402 [system_info.py:probe():196] Probing system
+2023-10-13 09:55:21,982 DEBUG   HandlerThread:49402 [system_info.py:_probe_git():181] Probing git
+2023-10-13 09:55:21,990 DEBUG   HandlerThread:49402 [system_info.py:_probe_git():189] Probing git done
+2023-10-13 09:55:21,990 DEBUG   HandlerThread:49402 [system_info.py:probe():244] Probing system done
+2023-10-13 09:55:21,990 DEBUG   HandlerThread:49402 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-84-generic-x86_64-with-glibc2.31', 'python': '3.10.3', 'heartbeatAt': '2023-10-13T04:25:21.979754', 'startedAt': '2023-10-13T04:25:20.333720', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '2.ipynb', 'codePathLocal': '2.ipynb', 'root': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'git': {'remote': 'https://github.com/losettimourya/SMAI-Assignment-3.git', 'commit': 'e67c0aa4e171cce7dafbfdae8656f0f1c56edb86'}, 'email': 'lsamourya@gmail.com', 'host': 'ubuntulsa-HP-Pavilion-Laptop-14-dv0xxx', 'username': 'ubuntulsa', 'executable': '/usr/local/bin/python3.10', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2569.46225, 'min': 400.0, 'max': 4700.0}, 'cpu_freq_per_core': [{'current': 2800.0, 'min': 400.0, 'max': 4700.0}, {'current': 2800.0, 'min': 400.0, 'max': 4700.0}, {'current': 2800.0, 'min': 400.0, 'max': 4700.0}, {'current': 955.698, 'min': 400.0, 'max': 4700.0}, {'current': 2800.0, 'min': 400.0, 'max': 4700.0}, {'current': 2800.0, 'min': 400.0, 'max': 4700.0}, {'current': 2800.0, 'min': 400.0, 'max': 4700.0}, {'current': 2800.0, 'min': 400.0, 'max': 4700.0}], 'disk': {'/': {'total': 91.10977554321289, 'used': 27.508495330810547}}, 'memory': {'total': 15.385688781738281}}
+2023-10-13 09:55:21,991 INFO    HandlerThread:49402 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-13 09:55:21,991 INFO    HandlerThread:49402 [system_monitor.py:probe():214] Publishing system info
+2023-10-13 09:55:21,991 DEBUG   HandlerThread:49402 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-13 09:55:21,991 DEBUG   HandlerThread:49402 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-13 09:55:21,992 INFO    HandlerThread:49402 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-13 09:55:21,994 DEBUG   SenderThread:49402 [sender.py:send():380] send: files
+2023-10-13 09:55:21,995 INFO    SenderThread:49402 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-13 09:55:22,011 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-13 09:55:22,011 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: stop_status
+2023-10-13 09:55:22,013 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-13 09:55:22,029 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: partial_history
+2023-10-13 09:55:22,556 INFO    Thread-12 :49402 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/wandb-metadata.json
+2023-10-13 09:55:22,557 INFO    Thread-12 :49402 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/requirements.txt
+2023-10-13 09:55:22,774 DEBUG   SenderThread:49402 [sender.py:send():380] send: telemetry
+2023-10-13 09:55:22,774 DEBUG   SenderThread:49402 [sender.py:send():380] send: history
+2023-10-13 09:55:22,775 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: summary_record
+2023-10-13 09:55:22,781 INFO    SenderThread:49402 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-13 09:55:22,781 DEBUG   SenderThread:49402 [sender.py:send():380] send: telemetry
+2023-10-13 09:55:22,781 DEBUG   SenderThread:49402 [sender.py:send():380] send: exit
+2023-10-13 09:55:22,782 INFO    SenderThread:49402 [sender.py:send_exit():585] handling exit code: 0
+2023-10-13 09:55:22,782 INFO    SenderThread:49402 [sender.py:send_exit():587] handling runtime: 0
+2023-10-13 09:55:22,782 INFO    SenderThread:49402 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-13 09:55:22,783 INFO    SenderThread:49402 [sender.py:send_exit():593] send defer
+2023-10-13 09:55:22,783 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:22,783 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 0
+2023-10-13 09:55:22,784 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:22,784 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-13 09:55:22,784 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 1
+2023-10-13 09:55:22,785 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:22,785 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 1
+2023-10-13 09:55:22,785 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:22,785 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-13 09:55:22,785 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 2
+2023-10-13 09:55:22,785 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:22,785 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 2
+2023-10-13 09:55:22,786 INFO    HandlerThread:49402 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-13 09:55:22,786 INFO    HandlerThread:49402 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-13 09:55:22,786 INFO    HandlerThread:49402 [interfaces.py:finish():202] Joined disk monitor
+2023-10-13 09:55:22,786 DEBUG   SystemMonitor:49402 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-13 09:55:22,787 INFO    HandlerThread:49402 [interfaces.py:finish():202] Joined memory monitor
+2023-10-13 09:55:22,787 DEBUG   SystemMonitor:49402 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-13 09:55:22,788 DEBUG   SystemMonitor:49402 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-13 09:55:22,788 INFO    HandlerThread:49402 [interfaces.py:finish():202] Joined network monitor
+2023-10-13 09:55:22,789 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:22,789 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-13 09:55:22,790 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 3
+2023-10-13 09:55:22,790 DEBUG   SenderThread:49402 [sender.py:send():380] send: stats
+2023-10-13 09:55:22,790 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:22,790 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 3
+2023-10-13 09:55:22,791 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:22,791 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-13 09:55:22,791 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 4
+2023-10-13 09:55:22,791 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:22,791 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 4
+2023-10-13 09:55:22,792 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:22,792 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-13 09:55:22,792 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 5
+2023-10-13 09:55:22,792 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:22,792 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 5
+2023-10-13 09:55:22,793 DEBUG   SenderThread:49402 [sender.py:send():380] send: summary
+2023-10-13 09:55:22,793 INFO    SenderThread:49402 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-13 09:55:22,794 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:22,794 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-13 09:55:22,794 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 6
+2023-10-13 09:55:22,794 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:22,794 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 6
+2023-10-13 09:55:22,794 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:22,794 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-13 09:55:22,800 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: status_report
+2023-10-13 09:55:23,032 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-13 09:55:23,289 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 7
+2023-10-13 09:55:23,290 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: poll_exit
+2023-10-13 09:55:23,290 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:23,290 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 7
+2023-10-13 09:55:23,290 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:23,290 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-13 09:55:23,290 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 8
+2023-10-13 09:55:23,291 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:23,291 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 8
+2023-10-13 09:55:23,291 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:23,291 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-13 09:55:23,291 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 9
+2023-10-13 09:55:23,291 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:23,291 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 9
+2023-10-13 09:55:23,292 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:23,292 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-13 09:55:23,292 INFO    SenderThread:49402 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-13 09:55:23,489 INFO    wandb-upload_0:49402 [upload_job.py:push():131] Uploaded file /tmp/tmptdy3vusawandb/hwfhc0o7-wandb-metadata.json
+2023-10-13 09:55:23,556 INFO    Thread-12 :49402 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/config.yaml
+2023-10-13 09:55:23,557 INFO    SenderThread:49402 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/wandb-summary.json
+2023-10-13 09:55:23,557 INFO    SenderThread:49402 [dir_watcher.py:finish():388] scan: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files
+2023-10-13 09:55:23,558 INFO    SenderThread:49402 [dir_watcher.py:finish():402] scan save: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/config.yaml config.yaml
+2023-10-13 09:55:23,558 INFO    SenderThread:49402 [dir_watcher.py:finish():402] scan save: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/wandb-metadata.json wandb-metadata.json
+2023-10-13 09:55:23,558 INFO    SenderThread:49402 [dir_watcher.py:finish():402] scan save: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/requirements.txt requirements.txt
+2023-10-13 09:55:23,558 INFO    SenderThread:49402 [dir_watcher.py:finish():402] scan save: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/wandb-summary.json wandb-summary.json
+2023-10-13 09:55:23,563 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 10
+2023-10-13 09:55:23,564 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:23,564 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 10
+2023-10-13 09:55:23,574 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:23,574 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-13 09:55:23,575 INFO    SenderThread:49402 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-13 09:55:24,032 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-13 09:55:24,033 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: poll_exit
+2023-10-13 09:55:24,357 INFO    wandb-upload_0:49402 [upload_job.py:push():131] Uploaded file /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/config.yaml
+2023-10-13 09:55:24,587 INFO    wandb-upload_1:49402 [upload_job.py:push():131] Uploaded file /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/requirements.txt
+2023-10-13 09:55:24,754 INFO    wandb-upload_2:49402 [upload_job.py:push():131] Uploaded file /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/files/wandb-summary.json
+2023-10-13 09:55:24,955 INFO    Thread-11 (_thread_body):49402 [sender.py:transition_state():613] send defer: 11
+2023-10-13 09:55:24,955 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:24,956 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 11
+2023-10-13 09:55:24,956 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:24,956 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-13 09:55:24,957 INFO    SenderThread:49402 [file_pusher.py:join():181] waiting for file pusher
+2023-10-13 09:55:24,957 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 12
+2023-10-13 09:55:24,957 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:24,957 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 12
+2023-10-13 09:55:24,957 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:24,958 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-13 09:55:24,958 INFO    SenderThread:49402 [file_stream.py:finish():595] file stream finish called
+2023-10-13 09:55:25,036 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-13 09:55:25,743 INFO    SenderThread:49402 [file_stream.py:finish():599] file stream finish is done
+2023-10-13 09:55:25,743 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 13
+2023-10-13 09:55:25,744 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: poll_exit
+2023-10-13 09:55:25,744 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:25,744 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 13
+2023-10-13 09:55:25,745 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:25,745 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-13 09:55:25,746 INFO    SenderThread:49402 [sender.py:transition_state():613] send defer: 14
+2023-10-13 09:55:25,746 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: defer
+2023-10-13 09:55:25,746 INFO    HandlerThread:49402 [handler.py:handle_request_defer():170] handle defer: 14
+2023-10-13 09:55:25,747 DEBUG   SenderThread:49402 [sender.py:send():380] send: final
+2023-10-13 09:55:25,747 DEBUG   SenderThread:49402 [sender.py:send():380] send: footer
+2023-10-13 09:55:25,747 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: defer
+2023-10-13 09:55:25,747 INFO    SenderThread:49402 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-13 09:55:25,749 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-13 09:55:25,750 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-13 09:55:25,751 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: poll_exit
+2023-10-13 09:55:25,752 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: server_info
+2023-10-13 09:55:25,752 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: get_summary
+2023-10-13 09:55:25,752 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: sampled_history
+2023-10-13 09:55:25,752 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: job_info
+2023-10-13 09:55:25,753 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: server_info
+2023-10-13 09:55:26,154 DEBUG   SenderThread:49402 [sender.py:send_request():407] send_request: job_info
+2023-10-13 09:55:26,156 DEBUG   HandlerThread:49402 [handler.py:handle_request():144] handle_request: shutdown
+2023-10-13 09:55:26,156 INFO    HandlerThread:49402 [handler.py:finish():844] shutting down handler
+2023-10-13 09:55:26,753 INFO    WriterThread:49402 [datastore.py:close():294] close: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231013_095520-2lpf2rgu/run-2lpf2rgu.wandb
+2023-10-13 09:55:27,154 INFO    SenderThread:49402 [sender.py:finish():1534] shutting down sender
+2023-10-13 09:55:27,155 INFO    SenderThread:49402 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-13 09:55:27,157 INFO    SenderThread:49402 [file_pusher.py:join():181] waiting for file pusher

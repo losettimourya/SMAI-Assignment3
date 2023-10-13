@@ -1,0 +1,13 @@
+wandb_version: 1
+
+activation:
+  value: relu
+epochs:
+  value: 50
+hiddenlayersize:
+  value:
+  - 14
+learning_rate:
+  value: 0.001
+optimizer:
+  value: MiniBatch
