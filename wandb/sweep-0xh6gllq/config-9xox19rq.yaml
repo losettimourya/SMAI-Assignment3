@@ -1,0 +1,11 @@
+wandb_version: 1
+
+epochs:
+  value: 10
+hiddenlayersize:
+  value:
+  - 13
+  - 13
+  - 13
+learning_rate:
+  value: 0.001

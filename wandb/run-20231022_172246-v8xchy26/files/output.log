@@ -1,0 +1,2 @@
+Best Hyperparameters: {'Learning Rate': 0.005, 'Num Epochs': 10000}
+Best Validation Accuracy: 0.6375545851528385

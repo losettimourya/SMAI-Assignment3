@@ -1,0 +1,377 @@
+2023-10-22 20:35:11,201 INFO    MainThread:78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:35:11,201 INFO    MainThread:78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:35:11,201 INFO    MainThread:78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:35:11,201 INFO    MainThread:78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:35:11,201 INFO    MainThread:78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-22 20:35:11,201 INFO    MainThread:78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:35:11,201 INFO    MainThread:78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203511-ri23y5m4/logs/debug.log
+2023-10-22 20:35:11,202 INFO    MainThread:78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203511-ri23y5m4/logs/debug-internal.log
+2023-10-22 20:35:11,202 INFO    MainThread:78690 [wandb_init.py:_jupyter_setup():474] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f87812ebe20>
+2023-10-22 20:35:11,202 INFO    MainThread:78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:35:11,202 INFO    MainThread:78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {}
+2023-10-22 20:35:11,202 INFO    MainThread:78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:35:11,202 INFO    MainThread:78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:35:11,204 INFO    MainThread:78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:35:11,205 INFO    MainThread:78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:35:11,213 INFO    MainThread:78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:35:11,213 INFO    MainThread:78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:35:11,213 INFO    MainThread:78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:35:11,222 INFO    MainThread:78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:35:12,122 INFO    MainThread:78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:35:12,316 INFO    MainThread:78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:35:12,316 INFO    MainThread:78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:35:12,352 INFO    MainThread:78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:35:12,352 INFO    MainThread:78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:35:12,352 INFO    MainThread:78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:35:12,352 INFO    MainThread:78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:35:12,352 INFO    MainThread:78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:35:22,758 INFO    MainThread:78690 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 20:35:22,758 INFO    MainThread:78690 [wandb_init.py:_pause_backend():438] pausing backend
+2023-10-22 20:35:22,789 INFO    MainThread:78690 [wandb_init.py:_resume_backend():443] resuming backend
+2023-10-22 20:35:22,792 INFO    MainThread:78690 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 20:35:22,792 INFO    MainThread:78690 [wandb_init.py:_pause_backend():438] pausing backend
+2023-10-22 20:38:37,110 INFO    MainThread:78690 [wandb_init.py:_resume_backend():443] resuming backend
+2023-10-22 20:38:37,677 INFO    MainThread:78690 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2023-10-22 20:38:45,203 WARNING MsgRouterThr:78690 [router.py:message_loop():77] message_loop has been closed
+2023-10-22 20:38:45,970 ERROR   Thread-8 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:38:47,352 INFO    Thread-8 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:38:47,352 INFO    Thread-8 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:38:47,352 INFO    Thread-8 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:38:47,352 INFO    Thread-8 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:38:47,352 INFO    Thread-8 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'sweep_id': '8wrz6yt7', 'run_id': 'ilk067um', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-ilk067um.yaml'}
+2023-10-22 20:38:47,352 INFO    Thread-8 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:38:47,352 INFO    Thread-8 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:38:47,352 INFO    Thread-8 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203847-ilk067um/logs/debug.log
+2023-10-22 20:38:47,353 INFO    Thread-8 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203847-ilk067um/logs/debug-internal.log
+2023-10-22 20:38:47,353 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:38:47,353 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'sigmoid', 'optimizer': 'SGD'}
+config: {}
+2023-10-22 20:38:47,353 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:38:47,353 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:38:47,361 INFO    Thread-8 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:38:47,362 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:38:47,374 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'sigmoid', 'optimizer': 'SGD'}
+2023-10-22 20:38:47,375 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:38:47,375 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:38:47,375 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:38:47,378 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:38:48,290 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:38:48,470 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:38:48,471 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:38:48,508 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:38:48,508 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:38:48,508 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:38:48,508 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:38:48,509 INFO    Thread-8 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:38:49,095 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/ilk067um
+2023-10-22 20:38:49,096 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:38:49,096 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:38:49,096 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:38:54,395 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:38:54,395 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:38:54,402 INFO    Thread-8 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:39:05,518 ERROR   Thread-12 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:39:06,910 INFO    Thread-12 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:39:06,911 INFO    Thread-12 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:39:06,911 INFO    Thread-12 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:39:06,911 INFO    Thread-12 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:39:06,911 INFO    Thread-12 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': 'u3kw18aj', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-u3kw18aj.yaml', 'sweep_id': '8wrz6yt7'}
+2023-10-22 20:39:06,911 INFO    Thread-12 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:39:06,911 INFO    Thread-12 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:39:06,911 INFO    Thread-12 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203906-u3kw18aj/logs/debug.log
+2023-10-22 20:39:06,912 INFO    Thread-12 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203906-u3kw18aj/logs/debug-internal.log
+2023-10-22 20:39:06,912 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:39:06,912 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'sigmoid', 'optimizer': 'Batch'}
+config: {}
+2023-10-22 20:39:06,912 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:39:06,912 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:39:06,920 INFO    Thread-12 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:39:06,921 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:39:06,936 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'sigmoid', 'optimizer': 'Batch'}
+2023-10-22 20:39:06,936 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:39:06,936 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:39:06,936 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:39:06,940 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:39:07,778 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:39:07,959 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:39:07,960 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:39:07,992 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:39:07,992 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:39:07,992 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:39:07,992 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:39:07,993 INFO    Thread-12 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:39:09,092 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/u3kw18aj
+2023-10-22 20:39:09,092 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:39:09,092 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:39:09,092 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:39:14,845 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:39:14,846 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:39:14,854 INFO    Thread-12 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:39:16,952 ERROR   Thread-15 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:39:18,385 INFO    Thread-15 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:39:18,385 INFO    Thread-15 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:39:18,385 INFO    Thread-15 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:39:18,385 INFO    Thread-15 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:39:18,385 INFO    Thread-15 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': 'bmhaux9l', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-bmhaux9l.yaml', 'sweep_id': '8wrz6yt7'}
+2023-10-22 20:39:18,385 INFO    Thread-15 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:39:18,385 INFO    Thread-15 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:39:18,386 INFO    Thread-15 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203918-bmhaux9l/logs/debug.log
+2023-10-22 20:39:18,386 INFO    Thread-15 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203918-bmhaux9l/logs/debug-internal.log
+2023-10-22 20:39:18,386 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:39:18,386 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'sigmoid', 'optimizer': 'MiniBatch'}
+config: {}
+2023-10-22 20:39:18,386 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:39:18,386 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:39:18,394 INFO    Thread-15 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:39:18,395 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:39:18,411 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'sigmoid', 'optimizer': 'MiniBatch'}
+2023-10-22 20:39:18,411 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:39:18,411 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:39:18,411 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:39:18,415 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:39:19,316 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:39:20,086 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:39:20,086 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:39:20,129 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:39:20,130 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:39:20,130 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:39:20,130 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:39:20,130 INFO    Thread-15 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:39:23,709 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/bmhaux9l
+2023-10-22 20:39:23,709 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:39:23,709 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:39:23,709 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:39:29,213 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:39:29,214 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:39:29,221 INFO    Thread-15 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:39:33,320 ERROR   Thread-18 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:39:34,666 INFO    Thread-18 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:39:34,666 INFO    Thread-18 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:39:34,666 INFO    Thread-18 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:39:34,666 INFO    Thread-18 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:39:34,666 INFO    Thread-18 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': 'n4f5rceq', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-n4f5rceq.yaml', 'sweep_id': '8wrz6yt7'}
+2023-10-22 20:39:34,667 INFO    Thread-18 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:39:34,667 INFO    Thread-18 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:39:34,667 INFO    Thread-18 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203934-n4f5rceq/logs/debug.log
+2023-10-22 20:39:34,667 INFO    Thread-18 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203934-n4f5rceq/logs/debug-internal.log
+2023-10-22 20:39:34,667 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:39:34,667 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'tanh', 'optimizer': 'SGD'}
+config: {}
+2023-10-22 20:39:34,667 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:39:34,667 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:39:34,675 INFO    Thread-18 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:39:34,676 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:39:34,689 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'tanh', 'optimizer': 'SGD'}
+2023-10-22 20:39:34,690 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:39:34,690 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:39:34,690 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:39:34,694 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:39:35,511 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:39:35,973 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:39:35,973 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:39:36,010 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:39:36,011 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:39:36,011 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:39:36,011 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:39:36,012 INFO    Thread-18 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:39:36,459 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/n4f5rceq
+2023-10-22 20:39:36,459 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:39:36,459 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:39:36,459 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:39:42,430 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:39:42,431 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:39:42,438 INFO    Thread-18 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:39:44,544 ERROR   Thread-21 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:39:45,916 INFO    Thread-21 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:39:45,916 INFO    Thread-21 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:39:45,916 INFO    Thread-21 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:39:45,916 INFO    Thread-21 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:39:45,917 INFO    Thread-21 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': '30p3v49x', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-30p3v49x.yaml', 'sweep_id': '8wrz6yt7'}
+2023-10-22 20:39:45,917 INFO    Thread-21 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:39:45,917 INFO    Thread-21 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:39:45,917 INFO    Thread-21 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203945-30p3v49x/logs/debug.log
+2023-10-22 20:39:45,917 INFO    Thread-21 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_203945-30p3v49x/logs/debug-internal.log
+2023-10-22 20:39:45,917 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:39:45,918 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'tanh', 'optimizer': 'Batch'}
+config: {}
+2023-10-22 20:39:45,918 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:39:45,918 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:39:45,925 INFO    Thread-21 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:39:45,925 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:39:45,938 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'tanh', 'optimizer': 'Batch'}
+2023-10-22 20:39:45,938 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:39:45,938 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:39:45,938 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:39:45,942 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:39:46,766 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:39:46,949 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:39:46,949 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:39:47,007 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:39:47,008 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:39:47,008 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:39:47,008 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:39:47,009 INFO    Thread-21 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:39:47,863 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/30p3v49x
+2023-10-22 20:39:47,864 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:39:47,864 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:39:47,864 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:39:53,891 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:39:53,892 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:39:53,901 INFO    Thread-21 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:40:05,003 ERROR   Thread-24 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:40:06,412 INFO    Thread-24 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:40:06,412 INFO    Thread-24 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:40:06,413 INFO    Thread-24 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:40:06,413 INFO    Thread-24 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:40:06,413 INFO    Thread-24 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': '9pa6parj', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-9pa6parj.yaml', 'sweep_id': '8wrz6yt7'}
+2023-10-22 20:40:06,413 INFO    Thread-24 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:40:06,413 INFO    Thread-24 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:40:06,413 INFO    Thread-24 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_204006-9pa6parj/logs/debug.log
+2023-10-22 20:40:06,413 INFO    Thread-24 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_204006-9pa6parj/logs/debug-internal.log
+2023-10-22 20:40:06,414 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:40:06,414 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'tanh', 'optimizer': 'MiniBatch'}
+config: {}
+2023-10-22 20:40:06,414 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:40:06,414 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:40:06,423 INFO    Thread-24 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:40:06,424 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:40:06,439 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'tanh', 'optimizer': 'MiniBatch'}
+2023-10-22 20:40:06,440 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:40:06,440 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:40:06,440 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:40:06,444 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:40:07,346 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:40:07,517 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:40:07,517 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:40:07,549 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:40:07,549 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:40:07,550 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:40:07,550 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:40:07,551 INFO    Thread-24 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:40:10,084 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/9pa6parj
+2023-10-22 20:40:10,085 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:40:10,085 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:40:10,085 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:40:15,294 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:40:15,294 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:40:15,302 INFO    Thread-24 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:40:26,404 ERROR   Thread-27 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:40:27,815 INFO    Thread-27 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:40:27,815 INFO    Thread-27 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:40:27,815 INFO    Thread-27 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:40:27,815 INFO    Thread-27 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:40:27,815 INFO    Thread-27 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': 'bdxtqsrp', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-bdxtqsrp.yaml', 'sweep_id': '8wrz6yt7'}
+2023-10-22 20:40:27,815 INFO    Thread-27 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:40:27,815 INFO    Thread-27 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:40:27,816 INFO    Thread-27 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_204027-bdxtqsrp/logs/debug.log
+2023-10-22 20:40:27,816 INFO    Thread-27 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_204027-bdxtqsrp/logs/debug-internal.log
+2023-10-22 20:40:27,816 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:40:27,816 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'relu', 'optimizer': 'SGD'}
+config: {}
+2023-10-22 20:40:27,816 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:40:27,816 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:40:27,825 INFO    Thread-27 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:40:27,825 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:40:27,842 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'relu', 'optimizer': 'SGD'}
+2023-10-22 20:40:27,843 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:40:27,843 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:40:27,843 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:40:27,849 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:40:28,611 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:40:28,813 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:40:28,813 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:40:28,860 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:40:28,861 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:40:28,861 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:40:28,861 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:40:28,862 INFO    Thread-27 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:40:29,362 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/bdxtqsrp
+2023-10-22 20:40:29,362 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:40:29,362 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:40:29,362 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:40:34,853 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:40:34,853 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:40:34,862 INFO    Thread-27 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:40:37,965 ERROR   Thread-30 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:40:39,386 INFO    Thread-30 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:40:39,386 INFO    Thread-30 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:40:39,386 INFO    Thread-30 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:40:39,386 INFO    Thread-30 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:40:39,386 INFO    Thread-30 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': 'k11wau4q', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-k11wau4q.yaml', 'sweep_id': '8wrz6yt7'}
+2023-10-22 20:40:39,387 INFO    Thread-30 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:40:39,387 INFO    Thread-30 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:40:39,387 INFO    Thread-30 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_204039-k11wau4q/logs/debug.log
+2023-10-22 20:40:39,387 INFO    Thread-30 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_204039-k11wau4q/logs/debug-internal.log
+2023-10-22 20:40:39,387 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:40:39,388 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'relu', 'optimizer': 'Batch'}
+config: {}
+2023-10-22 20:40:39,388 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:40:39,388 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:40:39,395 INFO    Thread-30 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:40:39,395 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:40:39,411 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'relu', 'optimizer': 'Batch'}
+2023-10-22 20:40:39,411 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:40:39,411 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:40:39,411 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:40:39,415 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:40:40,279 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:40:40,462 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:40:40,463 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:40:40,494 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:40:40,495 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:40:40,495 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:40:40,495 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:40:40,495 INFO    Thread-30 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:40:41,339 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/k11wau4q
+2023-10-22 20:40:41,339 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:40:41,339 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:40:41,339 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:40:47,949 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:40:47,949 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:40:47,956 INFO    Thread-30 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:40:59,060 ERROR   Thread-33 (_run_job):78690 [jupyter.py:notebook_metadata():224] Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+2023-10-22 20:41:00,473 INFO    Thread-33 (_run_job):78690 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 20:41:00,473 INFO    Thread-33 (_run_job):78690 [wandb_setup.py:_flush():76] Configure stats pid to 78690
+2023-10-22 20:41:00,473 INFO    Thread-33 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 20:41:00,473 INFO    Thread-33 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 20:41:00,473 INFO    Thread-33 (_run_job):78690 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'MLP Regression using different activation functions and optimizers', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': '3nw4rdl2', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-8wrz6yt7/config-3nw4rdl2.yaml', 'sweep_id': '8wrz6yt7'}
+2023-10-22 20:41:00,473 INFO    Thread-33 (_run_job):78690 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 20:41:00,473 INFO    Thread-33 (_run_job):78690 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 20:41:00,473 INFO    Thread-33 (_run_job):78690 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_204100-3nw4rdl2/logs/debug.log
+2023-10-22 20:41:00,474 INFO    Thread-33 (_run_job):78690 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_204100-3nw4rdl2/logs/debug-internal.log
+2023-10-22 20:41:00,474 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():568] calling init triggers
+2023-10-22 20:41:00,474 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():575] wandb.init called with sweep_config: {'activation': 'relu', 'optimizer': 'MiniBatch'}
+config: {}
+2023-10-22 20:41:00,474 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():618] starting backend
+2023-10-22 20:41:00,474 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():622] setting up manager
+2023-10-22 20:41:00,478 INFO    Thread-33 (_run_job):78690 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 20:41:00,479 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():628] backend started and connected
+2023-10-22 20:41:00,491 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_config_callback():1324] config_cb None None {'activation': 'relu', 'optimizer': 'MiniBatch'}
+2023-10-22 20:41:00,492 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 20:41:00,492 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 20:41:00,492 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():720] updated telemetry
+2023-10-22 20:41:00,496 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 20:41:01,417 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 20:41:01,600 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 20:41:01,601 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 20:41:01,637 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 20:41:01,638 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 20:41:01,638 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 20:41:01,638 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 20:41:01,638 INFO    Thread-33 (_run_job):78690 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 20:41:04,566 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_finish():1934] finishing run mourya/MLP Regression using different activation functions and optimizers/3nw4rdl2
+2023-10-22 20:41:04,566 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 20:41:04,566 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_restore():2151] restore
+2023-10-22 20:41:04,566 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_restore():2157] restore done
+2023-10-22 20:41:10,529 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 20:41:10,529 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 20:41:10,537 INFO    Thread-33 (_run_job):78690 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 20:41:20,677 INFO    MainThread:78690 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 20:41:20,677 INFO    MainThread:78690 [wandb_init.py:_pause_backend():438] pausing backend
+2023-10-22 20:51:26,839 INFO    MainThread:78690 [wandb_init.py:_resume_backend():443] resuming backend
+2023-10-22 20:51:26,902 INFO    MainThread:78690 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 20:51:26,902 INFO    MainThread:78690 [wandb_init.py:_pause_backend():438] pausing backend
+2023-10-22 20:51:35,544 INFO    MainThread:78690 [wandb_init.py:_resume_backend():443] resuming backend
+2023-10-22 20:51:35,601 INFO    MainThread:78690 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 20:51:35,601 INFO    MainThread:78690 [wandb_init.py:_pause_backend():438] pausing backend

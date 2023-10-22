@@ -1,0 +1,79 @@
+{
+    "os": "Linux-6.2.0-35-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-10-22T15:09:46.964009",
+    "startedAt": "2023-10-22T15:09:45.913785",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/losettimourya/SMAI-Assignment-3.git",
+        "commit": "dd713b39283792a4f34865c0207aa6483b7ff473"
+    },
+    "email": "lsamourya@gmail.com",
+    "root": "/home/ubuntulsa/Sem5/SMAI/Assignment 3",
+    "host": "ubuntulsa-HP-Pavilion-Laptop-14-dv0xxx",
+    "username": "ubuntulsa",
+    "executable": "/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2212.5266250000004,
+        "min": 400.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2844.07,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2793.121,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2740.642,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2689.661,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2882.723,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2836.4,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2848.911,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2818.221,
+            "min": 400.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 91.10977554321289,
+            "used": 15.673847198486328
+        }
+    },
+    "memory": {
+        "total": 15.38132095336914
+    }
+}

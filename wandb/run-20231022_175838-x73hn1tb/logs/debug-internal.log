@@ -1,0 +1,173 @@
+2023-10-22 17:58:38,834 INFO    StreamThr :34836 [internal.py:wandb_internal():86] W&B internal server running at pid: 34836, started at: 2023-10-22 17:58:38.834207
+2023-10-22 17:58:38,839 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: status
+2023-10-22 17:58:38,864 INFO    WriterThread:34836 [datastore.py:open_for_write():85] open: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/run-x73hn1tb.wandb
+2023-10-22 17:58:38,867 DEBUG   SenderThread:34836 [sender.py:send():380] send: header
+2023-10-22 17:58:38,868 DEBUG   SenderThread:34836 [sender.py:send():380] send: run
+2023-10-22 17:58:41,175 INFO    SenderThread:34836 [dir_watcher.py:__init__():211] watching files in: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files
+2023-10-22 17:58:41,175 INFO    SenderThread:34836 [sender.py:_start_run_threads():1122] run started: x73hn1tb with start time 1697977718.845955
+2023-10-22 17:58:41,182 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: check_version
+2023-10-22 17:58:41,182 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: check_version
+2023-10-22 17:58:41,367 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: run_start
+2023-10-22 17:58:41,369 DEBUG   HandlerThread:34836 [system_info.py:__init__():32] System info init
+2023-10-22 17:58:41,369 DEBUG   HandlerThread:34836 [system_info.py:__init__():47] System info init done
+2023-10-22 17:58:41,369 INFO    HandlerThread:34836 [system_monitor.py:start():194] Starting system monitor
+2023-10-22 17:58:41,369 INFO    SystemMonitor:34836 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-22 17:58:41,369 INFO    HandlerThread:34836 [system_monitor.py:probe():214] Collecting system info
+2023-10-22 17:58:41,372 DEBUG   HandlerThread:34836 [system_info.py:probe():196] Probing system
+2023-10-22 17:58:41,373 INFO    SystemMonitor:34836 [interfaces.py:start():190] Started cpu monitoring
+2023-10-22 17:58:41,375 DEBUG   HandlerThread:34836 [system_info.py:_probe_git():181] Probing git
+2023-10-22 17:58:41,379 INFO    SystemMonitor:34836 [interfaces.py:start():190] Started disk monitoring
+2023-10-22 17:58:41,383 INFO    SystemMonitor:34836 [interfaces.py:start():190] Started memory monitoring
+2023-10-22 17:58:41,394 INFO    SystemMonitor:34836 [interfaces.py:start():190] Started network monitoring
+2023-10-22 17:58:41,395 DEBUG   HandlerThread:34836 [system_info.py:_probe_git():189] Probing git done
+2023-10-22 17:58:41,395 DEBUG   HandlerThread:34836 [system_info.py:probe():244] Probing system done
+2023-10-22 17:58:41,395 DEBUG   HandlerThread:34836 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2023-10-22T12:28:41.372985', 'startedAt': '2023-10-22T12:28:38.826660', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/losettimourya/SMAI-Assignment-3.git', 'commit': 'dd713b39283792a4f34865c0207aa6483b7ff473'}, 'email': 'lsamourya@gmail.com', 'root': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'host': 'ubuntulsa-HP-Pavilion-Laptop-14-dv0xxx', 'username': 'ubuntulsa', 'executable': '/bin/python3.10', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2064.1975, 'min': 400.0, 'max': 4700.0}, 'cpu_freq_per_core': [{'current': 3122.679, 'min': 400.0, 'max': 4700.0}, {'current': 3122.937, 'min': 400.0, 'max': 4700.0}, {'current': 3122.929, 'min': 400.0, 'max': 4700.0}, {'current': 3123.138, 'min': 400.0, 'max': 4700.0}, {'current': 3122.685, 'min': 400.0, 'max': 4700.0}, {'current': 3122.921, 'min': 400.0, 'max': 4700.0}, {'current': 3122.922, 'min': 400.0, 'max': 4700.0}, {'current': 3122.701, 'min': 400.0, 'max': 4700.0}], 'disk': {'/': {'total': 91.10977554321289, 'used': 15.630611419677734}}, 'memory': {'total': 15.38132095336914}}
+2023-10-22 17:58:41,395 INFO    HandlerThread:34836 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-22 17:58:41,395 INFO    HandlerThread:34836 [system_monitor.py:probe():227] Publishing system info
+2023-10-22 17:58:41,395 DEBUG   HandlerThread:34836 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-22 17:58:41,396 DEBUG   HandlerThread:34836 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-22 17:58:41,396 INFO    HandlerThread:34836 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-22 17:58:41,398 DEBUG   SenderThread:34836 [sender.py:send():380] send: files
+2023-10-22 17:58:41,398 INFO    SenderThread:34836 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-22 17:58:41,422 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-22 17:58:41,422 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: stop_status
+2023-10-22 17:58:41,467 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-22 17:58:41,877 DEBUG   SenderThread:34836 [sender.py:send():380] send: telemetry
+2023-10-22 17:58:42,176 INFO    Thread-12 :34836 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/wandb-metadata.json
+2023-10-22 17:58:42,176 INFO    Thread-12 :34836 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/requirements.txt
+2023-10-22 17:58:42,615 INFO    wandb-upload_0:34836 [upload_job.py:push():131] Uploaded file /tmp/tmp710rhloiwandb/99ixqx4e-wandb-metadata.json
+2023-10-22 17:58:43,878 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 17:58:45,146 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-22 17:58:45,146 DEBUG   SenderThread:34836 [sender.py:send():380] send: history
+2023-10-22 17:58:45,147 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: summary_record
+2023-10-22 17:58:45,148 INFO    SenderThread:34836 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-22 17:58:45,176 INFO    Thread-12 :34836 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/wandb-summary.json
+2023-10-22 17:58:45,187 DEBUG   SenderThread:34836 [sender.py:send():380] send: telemetry
+2023-10-22 17:58:45,187 DEBUG   SenderThread:34836 [sender.py:send():380] send: exit
+2023-10-22 17:58:45,187 INFO    SenderThread:34836 [sender.py:send_exit():585] handling exit code: 0
+2023-10-22 17:58:45,188 INFO    SenderThread:34836 [sender.py:send_exit():587] handling runtime: 3
+2023-10-22 17:58:45,188 INFO    SenderThread:34836 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-22 17:58:45,188 INFO    SenderThread:34836 [sender.py:send_exit():593] send defer
+2023-10-22 17:58:45,188 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,188 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 0
+2023-10-22 17:58:45,188 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,188 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-22 17:58:45,188 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 1
+2023-10-22 17:58:45,189 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,189 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 1
+2023-10-22 17:58:45,189 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,189 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-22 17:58:45,189 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 2
+2023-10-22 17:58:45,189 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,189 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 2
+2023-10-22 17:58:45,189 INFO    HandlerThread:34836 [system_monitor.py:finish():203] Stopping system monitor
+2023-10-22 17:58:45,189 DEBUG   SystemMonitor:34836 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-22 17:58:45,189 DEBUG   SystemMonitor:34836 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-10-22 17:58:45,189 DEBUG   SystemMonitor:34836 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-10-22 17:58:45,189 INFO    HandlerThread:34836 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-22 17:58:45,189 INFO    HandlerThread:34836 [interfaces.py:finish():202] Joined disk monitor
+2023-10-22 17:58:45,190 INFO    HandlerThread:34836 [interfaces.py:finish():202] Joined memory monitor
+2023-10-22 17:58:45,190 INFO    HandlerThread:34836 [interfaces.py:finish():202] Joined network monitor
+2023-10-22 17:58:45,190 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,190 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-22 17:58:45,190 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 3
+2023-10-22 17:58:45,190 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,190 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 3
+2023-10-22 17:58:45,190 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,190 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-22 17:58:45,190 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 4
+2023-10-22 17:58:45,190 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,190 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 4
+2023-10-22 17:58:45,190 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,190 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-22 17:58:45,190 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 5
+2023-10-22 17:58:45,190 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,190 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 5
+2023-10-22 17:58:45,190 DEBUG   SenderThread:34836 [sender.py:send():380] send: summary
+2023-10-22 17:58:45,191 INFO    SenderThread:34836 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-22 17:58:45,191 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,191 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-22 17:58:45,191 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 6
+2023-10-22 17:58:45,191 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,191 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 6
+2023-10-22 17:58:45,191 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,191 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-22 17:58:45,193 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 17:58:45,521 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 7
+2023-10-22 17:58:45,521 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,521 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 7
+2023-10-22 17:58:45,522 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,522 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-22 17:58:45,522 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 8
+2023-10-22 17:58:45,522 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,522 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 8
+2023-10-22 17:58:45,523 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,523 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-22 17:58:45,523 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 9
+2023-10-22 17:58:45,523 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:45,523 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 9
+2023-10-22 17:58:45,523 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:45,524 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-22 17:58:45,524 INFO    SenderThread:34836 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-22 17:58:46,148 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-22 17:58:46,177 INFO    Thread-12 :34836 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/wandb-summary.json
+2023-10-22 17:58:46,177 INFO    SenderThread:34836 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/config.yaml
+2023-10-22 17:58:46,177 INFO    SenderThread:34836 [dir_watcher.py:finish():388] scan: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files
+2023-10-22 17:58:46,177 INFO    SenderThread:34836 [dir_watcher.py:finish():402] scan save: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/config.yaml config.yaml
+2023-10-22 17:58:46,178 INFO    SenderThread:34836 [dir_watcher.py:finish():402] scan save: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/wandb-metadata.json wandb-metadata.json
+2023-10-22 17:58:46,178 INFO    SenderThread:34836 [dir_watcher.py:finish():402] scan save: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/requirements.txt requirements.txt
+2023-10-22 17:58:46,178 INFO    SenderThread:34836 [dir_watcher.py:finish():402] scan save: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/wandb-summary.json wandb-summary.json
+2023-10-22 17:58:46,178 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 10
+2023-10-22 17:58:46,178 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: poll_exit
+2023-10-22 17:58:46,178 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:46,179 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 10
+2023-10-22 17:58:46,182 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:46,182 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-22 17:58:46,182 INFO    SenderThread:34836 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-22 17:58:47,009 INFO    wandb-upload_0:34836 [upload_job.py:push():131] Uploaded file /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/wandb-summary.json
+2023-10-22 17:58:47,012 INFO    wandb-upload_1:34836 [upload_job.py:push():131] Uploaded file /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/config.yaml
+2023-10-22 17:58:47,148 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-22 17:58:47,149 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: poll_exit
+2023-10-22 17:58:47,316 INFO    wandb-upload_2:34836 [upload_job.py:push():131] Uploaded file /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/files/requirements.txt
+2023-10-22 17:58:47,519 INFO    Thread-11 (_thread_body):34836 [sender.py:transition_state():613] send defer: 11
+2023-10-22 17:58:47,519 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:47,519 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 11
+2023-10-22 17:58:47,519 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:47,519 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-22 17:58:47,519 INFO    SenderThread:34836 [file_pusher.py:join():181] waiting for file pusher
+2023-10-22 17:58:47,519 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 12
+2023-10-22 17:58:47,520 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:47,520 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 12
+2023-10-22 17:58:47,520 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:47,520 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-22 17:58:47,520 INFO    SenderThread:34836 [file_stream.py:finish():595] file stream finish called
+2023-10-22 17:58:48,153 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-22 17:58:48,237 INFO    SenderThread:34836 [file_stream.py:finish():599] file stream finish is done
+2023-10-22 17:58:48,237 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 13
+2023-10-22 17:58:48,237 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: poll_exit
+2023-10-22 17:58:48,237 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:48,238 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 13
+2023-10-22 17:58:48,238 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:48,238 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-10-22 17:58:48,238 INFO    SenderThread:34836 [sender.py:transition_state():613] send defer: 14
+2023-10-22 17:58:48,238 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: defer
+2023-10-22 17:58:48,238 INFO    HandlerThread:34836 [handler.py:handle_request_defer():172] handle defer: 14
+2023-10-22 17:58:48,238 DEBUG   SenderThread:34836 [sender.py:send():380] send: final
+2023-10-22 17:58:48,238 DEBUG   SenderThread:34836 [sender.py:send():380] send: footer
+2023-10-22 17:58:48,238 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: defer
+2023-10-22 17:58:48,238 INFO    SenderThread:34836 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-10-22 17:58:48,238 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-22 17:58:48,239 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: poll_exit
+2023-10-22 17:58:48,239 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: poll_exit
+2023-10-22 17:58:48,239 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: server_info
+2023-10-22 17:58:48,239 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: get_summary
+2023-10-22 17:58:48,239 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: sampled_history
+2023-10-22 17:58:48,239 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: job_info
+2023-10-22 17:58:48,240 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: server_info
+2023-10-22 17:58:48,510 DEBUG   SenderThread:34836 [sender.py:send_request():407] send_request: job_info
+2023-10-22 17:58:48,511 DEBUG   HandlerThread:34836 [handler.py:handle_request():146] handle_request: shutdown
+2023-10-22 17:58:48,511 INFO    HandlerThread:34836 [handler.py:finish():866] shutting down handler
+2023-10-22 17:58:49,240 INFO    WriterThread:34836 [datastore.py:close():294] close: /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_175838-x73hn1tb/run-x73hn1tb.wandb
+2023-10-22 17:58:49,510 INFO    SenderThread:34836 [sender.py:finish():1534] shutting down sender
+2023-10-22 17:58:49,511 INFO    SenderThread:34836 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-22 17:58:49,511 INFO    SenderThread:34836 [file_pusher.py:join():181] waiting for file pusher

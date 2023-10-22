@@ -1,0 +1,19 @@
+/home/ubuntulsa/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ubuntulsa/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Loss: 0.9320701134595549
+Accuracy: 0.62882096069869
+F1 Score: 0.28086370197375893
+Precision: 0.31639826991828396
+Recall: 0.28161110665152955
+Loss: 0.9320701134595549
+Accuracy: 0.6116788321167883
+F1 Score: 0.2959359197423386
+Precision: 0.3792398709252854
+Recall: 0.2880217153732829
+0.62882096069869
+0.6116788321167883
+Create sweep with ID: 4x470ihy
+Sweep URL: https://wandb.ai/mourya/MLP%20Classification%20on%20different%20activation%20functions%20and%20optimizers%20for%20WineQT%20Dataset/sweeps/4x470ihy
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

@@ -1,0 +1,92 @@
+2023-10-22 15:35:22,361 INFO    Thread-35 (_run_job):9636 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 15:35:22,362 INFO    Thread-35 (_run_job):9636 [wandb_setup.py:_flush():76] Configure stats pid to 9636
+2023-10-22 15:35:22,362 INFO    Thread-35 (_run_job):9636 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/.config/wandb/settings
+2023-10-22 15:35:22,362 INFO    Thread-35 (_run_job):9636 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/settings
+2023-10-22 15:35:22,362 INFO    Thread-35 (_run_job):9636 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': '5.1-CNN Hyperparameter Tuning', 'entity': 'mourya', 'root_dir': '/home/ubuntulsa/Sem5/SMAI/Assignment 3', 'run_id': 'mkkblmza', 'sweep_param_path': '/home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/sweep-hcjpj0sf/config-mkkblmza.yaml', 'sweep_id': 'hcjpj0sf'}
+2023-10-22 15:35:22,362 INFO    Thread-35 (_run_job):9636 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 15:35:22,362 INFO    Thread-35 (_run_job):9636 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 15:35:22,362 INFO    Thread-35 (_run_job):9636 [wandb_init.py:_log_setup():528] Logging user logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_153522-mkkblmza/logs/debug.log
+2023-10-22 15:35:22,362 INFO    Thread-35 (_run_job):9636 [wandb_init.py:_log_setup():529] Logging internal logs to /home/ubuntulsa/Sem5/SMAI/Assignment 3/wandb/run-20231022_153522-mkkblmza/logs/debug-internal.log
+2023-10-22 15:35:22,363 INFO    Thread-35 (_run_job):9636 [wandb_init.py:_jupyter_setup():474] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fe9c81e40a0>
+2023-10-22 15:35:22,363 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():568] calling init triggers
+2023-10-22 15:35:22,363 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():575] wandb.init called with sweep_config: {'dropout_rate': 0.5, 'kernel_size': 3, 'learning_rate': 0.01}
+config: {}
+2023-10-22 15:35:22,363 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():618] starting backend
+2023-10-22 15:35:22,363 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():622] setting up manager
+2023-10-22 15:35:22,373 INFO    Thread-35 (_run_job):9636 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-22 15:35:22,374 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():628] backend started and connected
+2023-10-22 15:35:22,388 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_config_callback():1324] config_cb None None {'dropout_rate': 0.5, 'kernel_size': 3, 'learning_rate': 0.01}
+2023-10-22 15:35:22,389 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 15:35:22,389 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 15:35:22,389 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():720] updated telemetry
+2023-10-22 15:35:22,393 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 15:35:23,228 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 15:35:23,404 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 15:35:23,404 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 15:35:23,437 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 15:35:23,437 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 15:35:23,437 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 15:35:23,437 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 15:35:23,438 INFO    Thread-35 (_run_job):9636 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 15:36:17,967 INFO    MainThread:9636 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 15:36:17,967 INFO    MainThread:9636 [wandb_init.py:_pause_backend():438] pausing backend
+2023-10-22 15:36:26,778 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_finish():1934] finishing run mourya/5.1-CNN Hyperparameter Tuning/mkkblmza
+2023-10-22 15:36:26,778 INFO    Thread-35 (_run_job):9636 [jupyter.py:save_history():445] not saving jupyter history
+2023-10-22 15:36:26,778 INFO    Thread-35 (_run_job):9636 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 15:36:26,778 INFO    Thread-35 (_run_job):9636 [wandb_init.py:_jupyter_teardown():456] cleaning up jupyter logic
+2023-10-22 15:36:26,778 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 1
+2023-10-22 15:36:26,778 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_restore():2151] restore
+2023-10-22 15:36:26,778 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_restore():2157] restore done
+2023-10-22 15:36:26,779 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_restore():2151] restore
+2023-10-22 15:36:26,780 INFO    Thread-35 (_run_job):9636 [wandb_run.py:_restore():2157] restore done
+2023-10-22 15:36:27,821 ERROR   Thread-35 (_run_job):9636 [wandb_run.py:_atexit_cleanup():2189] Problem finishing run
+Traceback (most recent call last):
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 298, in _run_job
+    self._function()
+  File "/tmp/ipykernel_9636/192438334.py", line 82, in train
+    print(f'Epoch {epoch+1}/{num_epochs} - Kernel Size: {k} - Dropout Rate: {j} - Learning Rate - {lrate:.3f} - Train Accuracy: {train_accuracy:.2f}%')
+NameError: name 'k' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2177, in _atexit_cleanup
+    self._on_finish()
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2412, in _on_finish
+    self._footer_exit_status_info(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3397, in _footer_exit_status_info
+    printer.display(f'{" ".join(info)}')
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 247, in _display
+    self._display_fn_mapping(level)(text)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 81, in display_html
+    return display(HTML(html))
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 102, in publish
+    self._flush_streams()
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 65, in _flush_streams
+    sys.stdout.flush()
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 559, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/home/ubuntulsa/.local/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2023-10-22 15:39:20,538 INFO    MainThread:9636 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2023-10-22 15:39:44,464 INFO    MainThread:9636 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2023-10-22 15:41:10,891 INFO    MainThread:9636 [wandb_run.py:_finish():1934] finishing run mourya/5.1-CNN Hyperparameter Tuning/mkkblmza
+2023-10-22 15:41:10,891 INFO    MainThread:9636 [jupyter.py:save_history():445] not saving jupyter history
+2023-10-22 15:41:10,892 INFO    MainThread:9636 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 15:41:10,892 INFO    MainThread:9636 [wandb_init.py:_jupyter_teardown():456] cleaning up jupyter logic
+2023-10-22 15:41:23,950 INFO    MainThread:9636 [wandb_run.py:_finish():1934] finishing run mourya/5.1-CNN Hyperparameter Tuning/mkkblmza
+2023-10-22 15:41:23,950 INFO    MainThread:9636 [jupyter.py:save_history():445] not saving jupyter history
+2023-10-22 15:41:23,950 INFO    MainThread:9636 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 15:41:23,950 INFO    MainThread:9636 [wandb_init.py:_jupyter_teardown():456] cleaning up jupyter logic

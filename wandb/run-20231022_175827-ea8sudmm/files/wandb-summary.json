@@ -1,0 +1,1 @@
+{"activation": "tanh", "optimizer": "Batch", "accuracy": 0.519650655021834, "_timestamp": 1697977709.5702116, "_runtime": 1.902120590209961, "_step": 0, "_wandb": {"runtime": 0}}

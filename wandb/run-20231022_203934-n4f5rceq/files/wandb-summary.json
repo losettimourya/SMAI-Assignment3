@@ -1,0 +1,1 @@
+{"activation": "tanh", "optimizer": "SGD", "MSE": 15.048283663069968, "RMSE": 3.879211732178326, "R squared": 0.7711843221009334, "_timestamp": 1697987376.4593127, "_runtime": 1.782719612121582, "_step": 0, "_wandb": {"runtime": 0}}

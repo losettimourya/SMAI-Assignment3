@@ -1,0 +1,49 @@
+(685,)
+Validation Accuracy: 63.76%
+[5 7 5 5 6 6 6 5 5 5 6 5 6 6 5 6 5 6 5 6 5 5 5 6 6 6 6 5 6 5 6 6 6 5 6 5 6
+ 5 5 6 6 6 6 5 5 5 6 5 6 5 5 5 5 5 5 5 6 6 7 6 6 6 5 6 7 5 6 5 5 6 6 6 6 5
+ 5 5 6 5 5 5 6 5 5 6 5 5 6 5 5 5 5 5 6 6 6 7 6 5 5 6 6 6 7 5 6 6 7 6 5 6 7
+ 6 6 7 6 5 6 5 6 6 5 5 6 6 6 5 6 5 6 5 6 6 5 7 5 6 5 5 5 5 6 7 5 5 5 5 5 6
+ 6 5 5 5 6 5 5 5 6 5 5 5 6 5 5 5 6 6 5 5 5 6 5 5 6 6 5 6 6 6 6 6 5 7 5 6 5
+ 5 6 6 7 5 6 5 5 5 6 5 5 7 6 6 5 6 5 6 6 6 6 5 5 6 5 5 5 6 6 5 6 6 5 5 5 6
+ 6 5 6 5 5 6 5]
+[6 7 5 5 7 7 7 5 6 5 6 5 7 6 5 5 5 6 5 6 5 5 5 5 6 6 8 6 6 6 7 6 6 5 6 5 7
+ 5 6 6 6 5 6 6 5 5 7 5 7 5 5 5 5 5 4 5 5 6 7 4 7 6 5 6 7 4 7 6 4 6 6 6 5 6
+ 5 5 6 6 6 6 5 5 5 8 6 3 6 5 6 5 5 5 5 6 7 6 7 5 5 6 5 6 7 6 6 6 6 6 5 6 7
+ 6 5 6 6 7 6 5 5 5 5 6 5 6 7 5 6 5 5 5 7 6 6 7 5 6 6 5 5 6 6 6 6 3 5 5 5 6
+ 6 5 5 5 6 6 5 5 7 6 5 6 6 5 7 6 5 7 5 6 5 6 3 5 6 6 5 6 6 6 6 6 5 5 7 6 6
+ 5 5 6 7 5 4 5 5 5 6 5 5 7 6 6 5 5 6 6 7 6 7 5 6 6 5 5 6 6 6 5 5 6 5 5 6 6
+ 6 5 6 6 5 6 5]
+              precision    recall  f1-score   support
+           3       0.00      0.00      0.00         3
+           4       0.00      0.00      0.00         5
+           5       0.66      0.81      0.72        93
+           6       0.62      0.65      0.63        97
+           7       0.62      0.28      0.38        29
+           8       0.00      0.00      0.00         2
+    accuracy                           0.64       229
+   macro avg       0.32      0.29      0.29       229
+weighted avg       0.61      0.64      0.61       229
+Validation Accuracy: 63.76%
+              precision    recall  f1-score   support
+           3       0.00      0.00      0.00         3
+           4       0.00      0.00      0.00        19
+           5       0.69      0.80      0.74       293
+           6       0.58      0.64      0.61       272
+           7       0.57      0.30      0.39        88
+           8       0.00      0.00      0.00        10
+    accuracy                           0.63       685
+   macro avg       0.31      0.29      0.29       685
+weighted avg       0.60      0.63      0.61       685
+/home/ubuntulsa/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ubuntulsa/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ubuntulsa/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ubuntulsa/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ubuntulsa/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ubuntulsa/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1469: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))

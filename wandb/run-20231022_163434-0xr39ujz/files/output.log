@@ -1,0 +1,11 @@
+
+Epoch 1/5 - Hidden layers: 2 - Hidden neurons: [256, 256] - Train Accuracy: 30.35%
+Epoch 1/5 - Testing Loss: 1.9696 - Testing Accuracy: 22.78%
+Epoch 2/5 - Hidden layers: 2 - Hidden neurons: [256, 256] - Train Accuracy: 42.38%
+Epoch 2/5 - Testing Loss: 1.6943 - Testing Accuracy: 35.81%
+Epoch 3/5 - Hidden layers: 2 - Hidden neurons: [256, 256] - Train Accuracy: 52.27%
+Epoch 3/5 - Testing Loss: 1.5583 - Testing Accuracy: 48.77%
+Epoch 4/5 - Hidden layers: 2 - Hidden neurons: [256, 256] - Train Accuracy: 58.58%
+Epoch 4/5 - Testing Loss: 1.5356 - Testing Accuracy: 55.20%
+Epoch 5/5 - Hidden layers: 2 - Hidden neurons: [256, 256] - Train Accuracy: 62.48%
+Epoch 5/5 - Testing Loss: 1.5594 - Testing Accuracy: 57.45%

@@ -1,0 +1,1 @@
+{"activation": "relu", "optimizer": "MiniBatch", "MSE": 546.5909900990099, "RMSE": 23.379285491627197, "R squared": -7.311153001452126, "_timestamp": 1697987464.565858, "_runtime": 4.086648941040039, "_step": 0, "_wandb": {"runtime": 3}}

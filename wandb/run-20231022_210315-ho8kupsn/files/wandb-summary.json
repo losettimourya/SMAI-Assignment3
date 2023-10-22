@@ -1,0 +1,1 @@
+{"activation": "relu", "optimizer": "SGD", "MSE": 28.193160912789157, "RMSE": 5.309723242579518, "R squared": 0.5713107640169739, "_timestamp": 1697988797.363164, "_runtime": 1.5886609554290771, "_step": 0, "_wandb": {"runtime": 0}}

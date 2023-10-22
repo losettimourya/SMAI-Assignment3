@@ -1,0 +1,1 @@
+{"activation": "relu", "optimizer": "SGD", "accuracy": 0.5676855895196506, "_timestamp": 1697977737.0028927, "_runtime": 2.0182998180389404, "_step": 0, "_wandb": {"runtime": 0}}

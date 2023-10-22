@@ -1,0 +1,8 @@
+wandb_version: 1
+
+dropout_rate:
+  value: 0.5
+kernel_size:
+  value: 5
+learning_rate:
+  value: 0.001

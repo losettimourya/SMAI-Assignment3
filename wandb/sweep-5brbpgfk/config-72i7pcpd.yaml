@@ -1,0 +1,6 @@
+wandb_version: 1
+
+hidden_layers:
+  value: 1
+hidden_neurons:
+  value: 256

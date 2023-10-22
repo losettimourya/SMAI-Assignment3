@@ -1,0 +1,8 @@
+
+0.001
+Epoch 1/3 - Kernel Size: 5 - Dropout Rate: 0.5 - Learning Rate - 0.001 - Train Accuracy: 77.51%
+Epoch 1/3 - Testing Loss: 0.1777 - Testing Accuracy: 94.76%
+Epoch 2/3 - Kernel Size: 5 - Dropout Rate: 0.5 - Learning Rate - 0.001 - Train Accuracy: 94.71%
+Epoch 2/3 - Testing Loss: 0.1249 - Testing Accuracy: 96.34%
+Epoch 3/3 - Kernel Size: 5 - Dropout Rate: 0.5 - Learning Rate - 0.001 - Train Accuracy: 96.36%
+Epoch 3/3 - Testing Loss: 0.1156 - Testing Accuracy: 96.60%
